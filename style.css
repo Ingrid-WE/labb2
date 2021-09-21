@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    background-image: url("back2.png");
+    background-color: gray;
+    margin: 0px;
+}
+
+header {
+    background-image: url("header2.png");
+    background-color:gray;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+#logo {
+    display: block;
+    width: 35%;
+    height: auto;
+    top: 21%;
+    position: absolute;
+}
+
+/*Navbar starts*/
+
+.nav {
+    width: 100%;
+    background-color: #272C2B;
+    justify-content: center;
+    max-height: 3rem;
+    background-color: none;
+    color: #ffffff;
+      
+}
+
+.nav a {
+    color: #ffffff;
+}
+
+.nav-pills a {
+    padding: .8rem 3rem;  
+}
+
+.nav-pills :hover {
+    background-color: #B99973;
+    display: block;
+    border: 1px solid #B99973;
+    border-radius: 10px;
+    opacity: 0.9;
+    position: relative;
+}
+
+/*logo*/
+
+
+
+
+
+
+

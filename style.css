@@ -14,6 +14,30 @@ header {
     background-size: cover;
 }
 
+main {
+    display: block;
+    width: 100%;  
+}
+
+main.huvudsidan{
+    margin: 0 auto;
+}
+
+section.huvudsidan {
+    
+    width: 45%;
+    background-color: #272C2B;
+    border: 1px solid #272C2B;
+    border-radius: 10px;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+    color:#B99973;
+   
+    
+
+}
+
 /*logo*/
 
 #logo {
@@ -52,6 +76,8 @@ header {
     opacity: 0.9;
     position: relative;
 }
+
+/*sidans innehåll*/
 
 
 

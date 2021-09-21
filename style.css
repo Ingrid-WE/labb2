@@ -13,6 +13,8 @@ header {
     background-size: cover;
 }
 
+/*logo*/
+
 #logo {
     display: block;
     width: 35%;
@@ -27,7 +29,7 @@ header {
     width: 100%;
     background-color: #272C2B;
     justify-content: center;
-    max-height: 3rem;
+    max-height: 1rem, 3rem;
     background-color: none;
     color: #ffffff;
       
@@ -50,7 +52,7 @@ header {
     position: relative;
 }
 
-/*logo*/
+
 
 
 

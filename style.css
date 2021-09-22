@@ -4,6 +4,7 @@ body {
     background-color: gray;
     margin: 0px;
     background-size: cover;
+    min-height: 100%;
 }
 
 header {
@@ -18,16 +19,21 @@ header {
 
 main {
     display: block;
-    width: 100%;  
+    width: 100%; 
+    padding-top: 5%;
+    
+    
 }
 
 main.huvudsidan{
     margin: 0 auto;
+    
 }
 
 section.huvudsidan {
     
     width: 45%;
+    min-width: 350px;
     background-color: #272C2B;
     border: 1px solid #272C2B;
     border-radius: 10px;
@@ -35,10 +41,17 @@ section.huvudsidan {
     text-align: center;
     margin: 0 auto;
     color:#B99973;
-   
-    
-
 }
+
+main p {
+    padding: 3px;
+}
+
+main h1 {
+    text-shadow: 2px 2px #080706;
+}
+
+
 
 /*logo*/
 
@@ -59,6 +72,8 @@ section.huvudsidan {
     max-height: 1rem, 3rem;
     background-color: none;
     color: #ffffff;
+    position: relative;
+    z-index: -1;
       
 }
 
@@ -79,24 +94,87 @@ section.huvudsidan {
     position: relative;
 }
 
-/*footer*/
+/*Pictures animation hur man göra opacity bara på backgrunden??*/
 
-.container {
-    background-color: #272C2B;
-    color:#ffffff;
-    border: none;
+div.PicHolder {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(195, 162, 124, 0.5);
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.ms-3 {
+
+.PicHolder img {
+    width: 15%;
+    animation-name: floating;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {transform: translate(650%, 0px);}
+    100% { transform: translate(-650%, 0px); }    
+}
+
+/*footer*/
+
+footer {
+    background-image: url("footer 2.png");
+    color:#B99973;
+    border: none;
+    width: 100%;
+    border-top: none;
+    height: 3rem;
+    bottom: 0px;
+    position: fixed;
+
+}
+
+footer.border-top {
+    border-top: none!important;
+}
+
+footer ul.nav {
     background-color: #B99973;
-    color:#ffffff;
+    border: 1px solid #B99973;
+    border-radius: 5px;
+   
 }
 
 
 .runda {
 
-    border-radius:10%
+    border-radius:10%;
     box-shadow: 5px 10px 10px #B99973;
+}
+
+footer ul li {
+    background-color: #B99973;
+    margin: 0 auto;
+}
+
+footer.py-3 {
+    padding: 0!important;
+}
+
+footer.my-4 {
+    margin-bottom: 0px!important;
+}
+
+
+
+/*filmer*/
+.flip-box{
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border:1px solid #f1f1f1;
+    perspective:1000px;
+    
 }
 
 /*filmer*/
@@ -114,12 +192,62 @@ section.huvudsidan {
     width: 344px;
     height: 251px;
   }
-*/
+
+  @media screen and (max-width: 414px) {
+      .nav {
+         
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+    footer.ul nav {
+       grid-template-columns: 1;
+    }
+}
+  
+/*CSS för kontaktformuläret*/
 
 
+.mb-3 {
+    
+    width: 400px;
+    font-family: 'Reem Kufi';
+    color: #B99973;
+    margin-left: 70px;
+    margin-top: 10px;    
+}
 
+.form-background {
+    height: 450px;
+    width: 850px;
+    background-color: #272C2B;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+ div button {
+    color: white;
+    background-color: #B99973;   
+    width: 65px;
+    margin-top: 20px;
+    margin-left: 9px;
+    border-radius: 10px;
+    font-family: 'Reem Kufi'; 
+}
 
+.form-control {
+    margin-left: 10px;
+}
 
+.form-label {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px; 
+}
 
 

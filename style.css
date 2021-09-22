@@ -207,7 +207,7 @@ footer.my-4 {
     transform: rotateY(180deg);
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (min-width: 417px) and (max-width: 766px) {
       .nav {
          
       }

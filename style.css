@@ -207,6 +207,7 @@ footer.my-4 {
     transform: rotateY(180deg);
   }
 
+<<<<<<< HEAD
   @media screen and (max-width: 414px) {
       .nav {
          
@@ -218,3 +219,52 @@ footer.my-4 {
        grid-template-columns: 1;
     }
 }
+=======
+  
+/*CSS för kontaktformuläret*/
+
+
+.mb-3 {
+    
+    width: 400px;
+    font-family: 'Reem Kufi';
+    color: #B99973;
+    margin-left: 70px;
+    margin-top: 10px;    
+}
+
+.form-background {
+    height: 450px;
+    width: 850px;
+    background-color: #272C2B;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ div button {
+    color: white;
+    background-color: #B99973;   
+    width: 65px;
+    margin-top: 20px;
+    margin-left: 9px;
+    border-radius: 10px;
+    font-family: 'Reem Kufi'; 
+}
+
+.form-control {
+    margin-left: 10px;
+}
+
+.form-label {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px; 
+}
+
+
+>>>>>>> 9a7d853c3e7f760b78489de76823abc7ac253412

@@ -145,6 +145,13 @@ footer ul.nav {
    
 }
 
+
+.runda {
+
+    border-radius:10%;
+    box-shadow: 5px 10px 10px #B99973;
+}
+
 footer ul li {
     background-color: #B99973;
     margin: 0 auto;
@@ -170,41 +177,20 @@ footer.my-4 {
     
 }
 
-/* This container is needed to position the front and back side */
-.flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+/*filmer*/
+
+
+.filmcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
   }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side */
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
+
+  img {
+    border: 1px solid #B99973;
+    border-radius: 10px;
+    padding: 5px;
+    width: 344px;
+    height: 251px;
   }
 
   @media screen and (min-width: 417px) and (max-width: 766px) {

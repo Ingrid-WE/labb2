@@ -148,25 +148,6 @@ footer ul.nav {
 }
 
 
-.runda {
-
-    border: 1px solid #B99973;
-    border-radius: 10px;
-    padding: 5px;
-    width: 344px;
-    height: 251px;
-    
-    box-shadow: 5px 10px 10px #B99973;
-}
-
-.modal-content{
-    background-color: #272C2B;
-    color:#CFB187;
-    height: 40px;
-    width:60px;
-    image: left;
-    
-}
 
 footer ul li {
     background-color: #B99973;
@@ -184,16 +165,6 @@ footer.my-4 {
 
 
 /*filmer*/
-.flip-box{
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border:1px solid #f1f1f1;
-    perspective:1000px;
-    
-}
-
-/*filmer*/
 
 
 .filmcontainer {
@@ -201,9 +172,37 @@ footer.my-4 {
     grid-template-columns: auto auto auto auto;
   }
 
-  img {
-   
-  }
+.filmer{
+    width: 75%;
+    
+    background-color: #272C2B;
+    border: 1px solid #272C2B;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+    margin: 0 auto;
+    color:#B99973;
+}
+  /*.runda {
+
+    border: 1px solid #B99973;
+    border-radius: 10px;
+    padding: 5px;
+    width: 344px;
+    height: 251px;
+    
+    box-shadow: 5px 10px 10px #B99973;
+}*/
+
+.modal-content{
+    background-color: #272C2B;
+    color:#CFB187;
+    
+    
+}
+
+
+  
 
   @media screen and (max-width: 417px) {
       .nav {

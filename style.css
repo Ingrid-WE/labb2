@@ -148,8 +148,22 @@ footer ul.nav {
 
 .runda {
 
-    border-radius:10%;
+    border: 1px solid #B99973;
+    border-radius: 10px;
+    padding: 5px;
+    width: 344px;
+    height: 251px;
+    
     box-shadow: 5px 10px 10px #B99973;
+}
+
+.modal-content{
+    background-color: #272C2B;
+    color:#CFB187;
+    height: 40px;
+    width:60px;
+    image: left;
+    
 }
 
 footer ul li {
@@ -186,11 +200,7 @@ footer.my-4 {
   }
 
   img {
-    border: 1px solid #B99973;
-    border-radius: 10px;
-    padding: 5px;
-    width: 344px;
-    height: 251px;
+   
   }
 
   @media screen and (max-width: 414px) {

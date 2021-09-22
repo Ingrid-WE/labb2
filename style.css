@@ -174,55 +174,7 @@ footer.my-4 {
     grid-template-columns: auto auto auto auto;
   }
 
-<<<<<<< HEAD
-.filmer{
-    width: 75%;
-    
-    background-color: #272C2B;
-    border: 1px solid #272C2B;
-    border-radius: 10px;
-    opacity: 0.9;
-    
-    margin: 0 auto;
-    color:#B99973;
-}
-  /*.runda {
-
-    border: 1px solid #B99973;
-    border-radius: 10px;
-    padding: 5px;
-    width: 344px;
-    height: 251px;
-    
-    box-shadow: 5px 10px 10px #B99973;
-}*/
-
-.modal-content{
-    background-color: #272C2B;
-    color:#CFB187;
-    
-    
-}
-
-
   
-
-  @media screen and (max-width: 417px) {
-      .nav {
-         
-      }
-  }
-
-  @media screen and (max-width: 768px) {
-    footer.ul nav {
-       grid-template-columns: 1;
-    }
-}
-=======
-  img {
-   
-  }
->>>>>>> ce0c59c23ca7e4f11847f345f200206fd31089cf
   
 /*CSS för kontaktformuläret*/
 

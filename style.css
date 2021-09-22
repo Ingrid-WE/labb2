@@ -39,7 +39,7 @@ main.huvudsidan{
 
 section.huvudsidan {
     
-    width: 45%;
+    width: 80%;
     min-width: 250px;
     max-width: 600px;
     background-color: #272C2B;
@@ -234,14 +234,11 @@ footer.my-4 {
 
 /*responsive design*/
 
-@media screen and (max-width: 417px) {
-        footer ul.nav {
-       
-        margin: 0px auto;
-    }
-
+/*i den här storleken skriver vi elementer vilka ska byta i mobils skärmen*/
+@media screen and (max-width: 520px){
+    
     .nav-pills li  {
-        padding: .5rem 3rem;  
+        padding: .4rem 4rem;  
         
         
     }
@@ -255,33 +252,32 @@ footer.my-4 {
     div#logo {
         top: 0px;
         margin: 0 auto;
-        width: 90%;
+        width: 85%;
     }
 
+    section.huvudsidan {
+        width: 60%;
+        min-width: 300px;
+        max-width: 600px;
+       }
+
     
-    
-    
-    .PicHolder img {
-        width: 30%;
-        justify-content: space-around;
-      
-    
+    div.PicHolder  {
+        display: none;
     }
 
 }
 
-@media screen and (max-width: 768px) {
-    footer ul.nav {
-        margin: 0px auto;
-    }
+/*Tablets skärmen kommer under den här media query*/
+
+@media screen and (min-width: 521px) and (max-width: 960px) {
+   section.huvudsidan {
+    width: 60%;
+    min-width: 350px;
+    max-width: 600px;
+   }
    
    
   }
 
 
-@media  screen and (max-width: 440px) {
-    .form-background {
-        margin: 0px;
-    }
-    
-}

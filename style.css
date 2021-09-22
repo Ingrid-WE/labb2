@@ -262,16 +262,40 @@ footer.my-4 {
         margin: 0px auto;
     }
 
-    
-
-    footer span {
-        justify-content: flex-start;
+    .nav-pills li  {
+        padding: .5rem 3rem;  
+        
+        
     }
+
+    header {
+        background-image: none;
+        background-color:#272C2B;
+        height: 300px;
+    }
+
+    div#logo {
+        top: 0px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    
+    
+    
+    .PicHolder img {
+        width: 30%;
+        justify-content: space-around;
+      
+    
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     footer ul.nav {
         margin: 0px auto;
     }
+   
    
   }

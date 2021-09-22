@@ -91,6 +91,25 @@ main h1 {
     position: relative;
 }
 
+/*Pictures animation hur man göra opacity bara på backgrunden??*/
+
+div.PicHolder {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #B99973;
+    opacity: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.PicHolder img {
+    width: 15%;
+    
+}
+
 /*footer*/
 
 footer {

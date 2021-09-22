@@ -13,6 +13,9 @@ header {
     height: 300px;
     width: 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+   
 }
 
 /*sidans innehåll*/
@@ -51,8 +54,6 @@ main h1 {
     text-shadow: 2px 2px #080706;
 }
 
-
-
 /*logo*/
 
 #logo {
@@ -61,6 +62,8 @@ main h1 {
     height: auto;
     top: 21%;
     position: absolute;
+    z-index: 2;
+    
 }
 
 /*Navbar starts*/
@@ -70,12 +73,11 @@ main h1 {
     background-color: #272C2B;
     justify-content: center;
     max-height: 1rem, 3rem;
-    background-color: none;
     color: #ffffff;
-    position: relative;
-    z-index: -1;
-      
+    position: relative;  
+
 }
+
 
 .nav a {
     color: #ffffff;
@@ -203,7 +205,7 @@ footer.my-4 {
    
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 417px) {
       .nav {
          
       }

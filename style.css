@@ -145,34 +145,15 @@ footer ul.nav {
     background-color: #B99973;
     border: 1px solid #B99973;
     border-radius: 5px;
-   
+    width: 150px;
+    justify-content: center;
 }
 
 /*footer ends*/
 
-.runda {
-
-    border: 1px solid #B99973;
-    border-radius: 10px;
-    padding: 5px;
-    width: 344px;
-    height: 251px;
-    
-    box-shadow: 5px 10px 10px #B99973;
-}
-
-.modal-content{
-    background-color: #272C2B;
-    color:#CFB187;
-    height: 40px;
-    width:60px;
-    image: left;
-    
-}
 
 footer ul li {
     background-color: #B99973;
-    margin: 0 auto;
 }
 
 footer.py-3 {
@@ -186,16 +167,6 @@ footer.my-4 {
 
 
 /*filmer*/
-.flip-box{
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border:1px solid #f1f1f1;
-    perspective:1000px;
-    
-}
-
-/*filmer*/
 
 
 .filmcontainer {
@@ -203,9 +174,7 @@ footer.my-4 {
     grid-template-columns: auto auto auto auto;
   }
 
-  img {
-   
-  }
+  
   
 /*CSS för kontaktformuläret*/
 
@@ -257,22 +226,46 @@ footer.my-4 {
 /*responsive design*/
 
 @media screen and (max-width: 417px) {
-    footer ul.nav {
-        
-       margin: 0px;
+        footer ul.nav {
+       
+        margin: 0px auto;
     }
 
-    footer span {
-        justify-content: flex-start;
+    .nav-pills li  {
+        padding: .5rem 3rem;  
+        
+        
     }
+
+    header {
+        background-image: none;
+        background-color:#272C2B;
+        height: 300px;
+    }
+
+    div#logo {
+        top: 0px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    
+    
+    
+    .PicHolder img {
+        width: 30%;
+        justify-content: space-around;
+      
+    
+    }
+
 }
 
 @media screen and (max-width: 768px) {
-    footer ul.nav  {
-        
-            margin: 0px;
-            justify-content: flex-start;
-         }
+    footer ul.nav {
+        margin: 0px auto;
+    }
+   
    
   }
 

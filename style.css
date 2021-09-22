@@ -110,7 +110,7 @@ div.PicHolder {
 
 
 .PicHolder img {
-    width: 15%;
+    width: 12%;
     animation-name: floating;
     animation-duration: 30s;
     animation-iteration-count: infinite;

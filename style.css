@@ -145,7 +145,8 @@ footer ul.nav {
     background-color: #B99973;
     border: 1px solid #B99973;
     border-radius: 5px;
-   
+    width: 150px;
+    justify-content: center;
 }
 
 /*footer ends*/
@@ -172,7 +173,6 @@ footer ul.nav {
 
 footer ul li {
     background-color: #B99973;
-    margin: 0 auto;
 }
 
 footer.py-3 {
@@ -255,10 +255,12 @@ h1 {
 /*responsive design*/
 
 @media screen and (max-width: 417px) {
-    footer ul.nav {
-        
-       margin: 0px;
+        footer ul.nav {
+       
+        margin: 0px auto;
     }
+
+    
 
     footer span {
         justify-content: flex-start;
@@ -266,10 +268,8 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    footer ul.nav  {
-        
-            margin: 0px;
-            justify-content: flex-start;
-         }
+    footer ul.nav {
+        margin: 0px auto;
+    }
    
   }

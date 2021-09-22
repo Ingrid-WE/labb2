@@ -258,14 +258,20 @@ footer.my-4 {
 
 @media screen and (max-width: 417px) {
     footer ul.nav {
-        display: flex;
-        justify-content:center;
+        
+       margin: 0px;
+    }
+
+    footer span {
+        justify-content: flex-start;
     }
 }
 
 @media screen and (max-width: 768px) {
-    {
-      
+    footer ul.nav  {
+        
+            margin: 0px;
+            justify-content: flex-start;
+         }
    
   }
-}

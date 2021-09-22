@@ -4,6 +4,7 @@ body {
     background-color: gray;
     margin: 0px;
     background-size: cover;
+    min-height: 100%;
 }
 
 header {
@@ -35,8 +36,6 @@ section.huvudsidan {
     text-align: center;
     margin: 0 auto;
     color:#B99973;
-   
-    
 
 }
 
@@ -82,22 +81,45 @@ section.huvudsidan {
 /*footer*/
 
 footer {
-    background-image: url("footer2.png");
-    color:#ffffff;
+    background-image: url("footer 2.png");
+    color:#B99973;
     border: none;
     width: 100%;
-}
-
-.border-top {
     border-top: none;
+    height: 3rem;
+    bottom: 0px;
+    position: fixed;
+
 }
 
-nav.ms-3 {
+footer.border-top {
+    border-top: none!important;
+}
+
+footer ul.nav {
     background-color: #B99973;
-    color:#ffffff;
+    width: 10%;
+    border: 1px solid #B99973;
+    border-radius: 5px;
+   
 }
 
-/*filmer
+footer ul li {
+    background-color: #B99973;
+    margin: 0 auto;
+}
+
+footer.py-3 {
+    padding: 0!important;
+}
+
+footer.my-4 {
+    margin-bottom: 0px!important;
+}
+
+
+
+/*filmer*/
 .flip-box{
     background-color: transparent;
     width: 300px;

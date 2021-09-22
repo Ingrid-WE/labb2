@@ -19,11 +19,15 @@ header {
 
 main {
     display: block;
-    width: 100%;  
+    width: 100%; 
+    padding-top: 5%;
+    
+    
 }
 
 main.huvudsidan{
     margin: 0 auto;
+    
 }
 
 section.huvudsidan {
@@ -36,8 +40,17 @@ section.huvudsidan {
     text-align: center;
     margin: 0 auto;
     color:#B99973;
-
 }
+
+main p {
+    padding: 3px;
+}
+
+main h1 {
+    text-shadow: 2px 2px #080706;
+}
+
+
 
 /*logo*/
 

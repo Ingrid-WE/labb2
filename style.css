@@ -60,7 +60,7 @@ main h1 {
     display: block;
     width: 35%;
     height: auto;
-    top: 21%;
+    top: 20%;
     position: absolute;
     z-index: 2;
     
@@ -99,7 +99,7 @@ main h1 {
 /*Pictures animation hur man göra opacity bara på backgrunden??*/
 
 div.PicHolder {
-    margin-top: 3%;
+    margin-top: 7%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -115,6 +115,7 @@ div.PicHolder {
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+
 }
 
 @keyframes floating {
@@ -204,18 +205,6 @@ footer.my-4 {
   img {
    
   }
-
-  @media screen and (max-width: 417px) {
-      .nav {
-         
-      }
-  }
-
-  @media screen and (max-width: 768px) {
-    footer.ul nav {
-       grid-template-columns: 1;
-    }
-}
   
 /*CSS för kontaktformuläret*/
 
@@ -262,4 +251,16 @@ h1 {
     font-size: 20px; 
 }
 
+/*responsive design*/
 
+@media screen and (max-width: 417px) {
+    .nav {
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+  footer.ul nav {
+     grid-template-columns: 1;
+  }
+}

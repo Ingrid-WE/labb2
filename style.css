@@ -13,6 +13,9 @@ header {
     height: 300px;
     width: 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+   
 }
 
 /*sidans innehåll*/
@@ -51,16 +54,16 @@ main h1 {
     text-shadow: 2px 2px #080706;
 }
 
-
-
 /*logo*/
 
 #logo {
     display: block;
     width: 35%;
     height: auto;
-    top: 21%;
+    top: 20%;
     position: absolute;
+    z-index: 2;
+    
 }
 
 /*Navbar starts*/
@@ -70,12 +73,11 @@ main h1 {
     background-color: #272C2B;
     justify-content: center;
     max-height: 1rem, 3rem;
-    background-color: none;
     color: #ffffff;
-    position: relative;
-    z-index: -1;
-      
+    position: relative;  
+
 }
+
 
 .nav a {
     color: #ffffff;
@@ -97,7 +99,7 @@ main h1 {
 /*Pictures animation hur man göra opacity bara på backgrunden??*/
 
 div.PicHolder {
-    margin-top: 3%;
+    margin-top: 7%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -108,11 +110,12 @@ div.PicHolder {
 
 
 .PicHolder img {
-    width: 15%;
+    width: 12%;
     animation-name: floating;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+
 }
 
 @keyframes floating {
@@ -145,11 +148,26 @@ footer ul.nav {
    
 }
 
+/*footer ends*/
 
 .runda {
 
-    border-radius:10%;
+    border: 1px solid #B99973;
+    border-radius: 10px;
+    padding: 5px;
+    width: 344px;
+    height: 251px;
+    
     box-shadow: 5px 10px 10px #B99973;
+}
+
+.modal-content{
+    background-color: #272C2B;
+    color:#CFB187;
+    height: 40px;
+    width:60px;
+    image: left;
+    
 }
 
 footer ul li {
@@ -186,24 +204,8 @@ footer.my-4 {
   }
 
   img {
-    border: 1px solid #B99973;
-    border-radius: 10px;
-    padding: 5px;
-    width: 344px;
-    height: 251px;
+   
   }
-
-  @media screen and (min-width: 417px) and (max-width: 766px) {
-      .nav {
-         
-      }
-  }
-
-  @media screen and (max-width: 768px) {
-    footer.ul nav {
-       grid-template-columns: 1;
-    }
-}
   
 /*CSS för kontaktformuläret*/
 
@@ -252,3 +254,18 @@ footer.my-4 {
     
 }
 
+/*responsive design*/
+
+@media screen and (max-width: 417px) {
+    footer ul.nav {
+        display: flex;
+        justify-content:center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    {
+      
+   
+  }
+}

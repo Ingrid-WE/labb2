@@ -207,7 +207,6 @@ footer.my-4 {
     transform: rotateY(180deg);
   }
 
-<<<<<<< HEAD
   @media screen and (max-width: 414px) {
       .nav {
          
@@ -219,7 +218,6 @@ footer.my-4 {
        grid-template-columns: 1;
     }
 }
-=======
   
 /*CSS för kontaktformuläret*/
 
@@ -267,4 +265,3 @@ h1 {
 }
 
 
->>>>>>> 9a7d853c3e7f760b78489de76823abc7ac253412

@@ -13,6 +13,9 @@ header {
     height: 300px;
     width: 100%;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+   
 }
 
 /*sidans innehåll*/
@@ -59,6 +62,8 @@ main h1 {
     height: auto;
     top: 21%;
     position: absolute;
+    z-index: 2;
+    
 }
 
 /*Navbar starts*/
@@ -68,12 +73,11 @@ main h1 {
     background-color: #272C2B;
     justify-content: center;
     max-height: 1rem, 3rem;
-    background-color: none;
     color: #ffffff;
-    position: relative;
-    z-index: -1;
-      
+    position: relative;  
+
 }
+
 
 .nav a {
     color: #ffffff;
@@ -83,7 +87,7 @@ main h1 {
     padding: .8rem 3rem;  
 }
 
-.nav-pills li :hover {
+.nav-pills :hover {
     background-color: #B99973;
     display: block;
     border: 1px solid #B99973;
@@ -191,7 +195,7 @@ footer.my-4 {
     height: 251px;
   }
 
-  @media screen and (min-width: 417px) and (max-width: 766px) {
+  @media screen and (max-width: 417px) {
       .nav {
          
       }

@@ -33,6 +33,7 @@ main.huvudsidan{
 section.huvudsidan {
     
     width: 45%;
+    min-width: 350px;
     background-color: #272C2B;
     border: 1px solid #272C2B;
     border-radius: 10px;
@@ -71,6 +72,8 @@ main h1 {
     max-height: 1rem, 3rem;
     background-color: none;
     color: #ffffff;
+    position: relative;
+    z-index: -1;
       
 }
 
@@ -98,8 +101,7 @@ div.PicHolder {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #B99973;
-    opacity: 1;
+    background-color: rgba(195, 162, 124, 0.5);
     flex-direction: row;
     justify-content: space-around;
 }
@@ -107,7 +109,15 @@ div.PicHolder {
 
 .PicHolder img {
     width: 15%;
-    
+    animation-name: floating;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {transform: translate(650%, 0px);}
+    100% { transform: translate(-650%, 0px); }    
 }
 
 /*footer*/
@@ -130,7 +140,6 @@ footer.border-top {
 
 footer ul.nav {
     background-color: #B99973;
-    width: 10%;
     border: 1px solid #B99973;
     border-radius: 5px;
    
@@ -197,3 +206,15 @@ footer.my-4 {
     color: white;
     transform: rotateY(180deg);
   }
+
+  @media screen and (max-width: 414px) {
+      .nav {
+         
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+    footer.ul nav {
+       grid-template-columns: 1;
+    }
+}

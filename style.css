@@ -51,8 +51,6 @@ main h1 {
     text-shadow: 2px 2px #080706;
 }
 
-
-
 /*logo*/
 
 #logo {
@@ -85,7 +83,7 @@ main h1 {
     padding: .8rem 3rem;  
 }
 
-.nav-pills :hover {
+.nav-pills li :hover {
     background-color: #B99973;
     display: block;
     border: 1px solid #B99973;

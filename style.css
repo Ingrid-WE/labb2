@@ -81,13 +81,18 @@ section.huvudsidan {
 
 /*footer*/
 
-.container {
-    background-color: #272C2B;
+footer {
+    background-image: url("footer2.png");
     color:#ffffff;
     border: none;
+    width: 100%;
 }
 
-.ms-3 {
+.border-top {
+    border-top: none;
+}
+
+nav.ms-3 {
     background-color: #B99973;
     color:#ffffff;
 }

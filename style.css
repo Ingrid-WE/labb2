@@ -4,7 +4,7 @@
 
 body {
     width: 100%;
-    background-image: url("back2.png");
+    background-image: url("bilder/back2.png");
     background-color: gray;
     margin: 0px;
     background-size: cover;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url("header2.png");
+    background-image: url("bilder/header2.png");
     background-color:gray;
     height: 300px;
     width: 100%;
@@ -138,7 +138,7 @@ div.PicHolder {
 /*footer*/
 
 footer {
-    background-image: url("footer 2.png");
+    background-image: url("bilder/footer 2.png");
     color:#B99973;
     border: none;
     width: 100%;

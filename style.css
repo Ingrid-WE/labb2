@@ -1,6 +1,7 @@
 * {
     font-family: 'Reem Kufi';
 }
+
 body {
     width: 100%;
     background-image: url("back2.png");
@@ -190,14 +191,16 @@ footer.my-4 {
     min-width: 300px;
     text-align: center;
     margin: 10px;
+    padding: 50px;
     
 
     
 }
 img.galleryPics{
     border: 13px solid #B99973;
-    border-radius: 5px;
-    width: 50%;
+    border-radius: 5%;
+    width: 75%;
+    height: 100%;
     min-width: 250px;
     
 }
@@ -209,9 +212,12 @@ img.galleryPics{
     color: #B99973;
     width:100%;
     justify-content: space-around;
-   text-align: center;
+   /*text-align: center;*/
    text-align: justify;
-   padding: 3px;
+   padding: 3%;
+
+   
+   
    
     
 }
@@ -231,8 +237,7 @@ img.galleryPics{
     max-width: 900px;
 }
 
-
-  
+ 
   
 /*CSS för kontaktformuläret*/
 
@@ -312,6 +317,12 @@ img.galleryPics{
     
     div.PicHolder  {
         display: none;
+    }
+
+    .modal-fade {
+        
+        
+    
     }
 
 }

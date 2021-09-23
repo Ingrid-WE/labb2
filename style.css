@@ -318,6 +318,8 @@ img.galleryPics{
         display: none;
     }
 
+    Den här skriver ni kod
+
 }
 
 
@@ -328,24 +330,7 @@ img.galleryPics{
     }
 }
 
-/* Mobile */ KONTAKT
-@media screen and (max-width: 414px) {
-    .form-background
-
-}
-
-
-
-
-/* Tablet */
-
-
-
-
-/* Desktop */
-
-
-  /*Desktops skärmen*/
+/*Desktops skärmen*/
   @media screen and (min-width: 961px){
 
   }

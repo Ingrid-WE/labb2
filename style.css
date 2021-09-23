@@ -289,7 +289,7 @@ img.galleryPics{
 
 /*responsive design*/
 
-/*i den här storleken skriver vi elementer vilka ska byta i mobils skärmen*/
+/*Mobile styles*/
 @media screen and (max-width: 520px){
     
     .nav-pills li  {
@@ -347,7 +347,7 @@ img.galleryPics{
 }
 
 
-/*Tablet*/
+/*Tablet styles*/
 
 @media screen and (max-width: 768px) {
     footer ul.nav {

@@ -1,3 +1,6 @@
+* {
+    font-family: 'Reem Kufi';
+}
 body {
     width: 100%;
     background-image: url("back2.png");
@@ -5,6 +8,7 @@ body {
     margin: 0px;
     background-size: cover;
     min-height: 100%;
+    
 }
 
 header {
@@ -23,7 +27,7 @@ header {
 main {
     display: block;
     width: 100%; 
-    padding-top: 5%;
+    padding-top: 3%;
     
     
 }
@@ -35,8 +39,9 @@ main.huvudsidan{
 
 section.huvudsidan {
     
-    width: 45%;
-    min-width: 350px;
+    width: 80%;
+    min-width: 250px;
+    max-width: 600px;
     background-color: #272C2B;
     border: 1px solid #272C2B;
     border-radius: 10px;
@@ -44,14 +49,17 @@ section.huvudsidan {
     text-align: center;
     margin: 0 auto;
     color:#B99973;
+    padding:5px;
 }
 
 main p {
-    padding: 3px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 main h1 {
     text-shadow: 2px 2px #080706;
+    font-size: 2rem;
 }
 
 /*logo*/
@@ -72,19 +80,20 @@ main h1 {
     width: 100%;
     background-color: #272C2B;
     justify-content: center;
-    max-height: 1rem, 3rem;
-    color: #ffffff;
+    max-height: .1rem 1rem;
     position: relative;  
 
 }
 
 
 .nav a {
-    color: #ffffff;
+    color: #DCEBF0;
+    font-size: 21px;
+    font-family: 'Reem Kufi';
 }
 
 .nav-pills a {
-    padding: .8rem 3rem;  
+    padding: .5rem 3rem;  
 }
 
 .nav-pills :hover {
@@ -96,10 +105,10 @@ main h1 {
     position: relative;
 }
 
-/*Pictures animation hur man göra opacity bara på backgrunden??*/
+/*Pictures animation*/
 
 div.PicHolder {
-    margin-top: 7%;
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -225,14 +234,11 @@ footer.my-4 {
 
 /*responsive design*/
 
-@media screen and (max-width: 417px) {
-        footer ul.nav {
-       
-        margin: 0px auto;
-    }
-
+/*i den här storleken skriver vi elementer vilka ska byta i mobils skärmen*/
+@media screen and (max-width: 520px){
+    
     .nav-pills li  {
-        padding: .5rem 3rem;  
+        padding: .4rem 4rem;  
         
         
     }
@@ -246,17 +252,18 @@ footer.my-4 {
     div#logo {
         top: 0px;
         margin: 0 auto;
-        width: 90%;
+        width: 85%;
     }
 
+    section.huvudsidan {
+        width: 60%;
+        min-width: 300px;
+        max-width: 600px;
+       }
+
     
-    
-    
-    .PicHolder img {
-        width: 30%;
-        justify-content: space-around;
-      
-    
+    div.PicHolder  {
+        display: none;
     }
 
 }

@@ -56,11 +56,13 @@ section.huvudsidan {
 main p {
     font-size: 20px;
     line-height: 24px;
+    
 }
 
 main h1 {
     text-shadow: 2px 2px #080706;
     font-size: 2rem;
+
 }
 
 /*logo*/
@@ -247,19 +249,17 @@ img.galleryPics{
     width: 400px;
     font-family: 'Reem Kufi';
     color: #B99973;
-    margin-left: 70px;
-    margin-top: 50px;    
+      
 }
 
 .form-background {
     height: 450px;
-    width: 850px;
+    width: 650px;
     background-color: #272C2B;
-    margin-top: 50px;
-    margin-left: 220px;
-    margin-bottom: 100px;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 5%; 
 }
 
  div button {
@@ -274,6 +274,7 @@ img.galleryPics{
 
 .form-control {
     margin-left: 10px;
+    width: 10px;
 }
 
 .form-label {
@@ -283,6 +284,7 @@ img.galleryPics{
 .h1-contact {
     font-size: 30px; 
     margin-left: 7px;
+    margin-top: 30px;
     
 }
 
@@ -319,27 +321,28 @@ img.galleryPics{
         display: none;
     }
 
+<<<<<<< HEAD
     .modal-fade {
         
         
     
     }
+=======
+    Den här skriver ni kod
+>>>>>>> 3695ec320a20a2aa65259fbe64245c3f356a7c53
 
 }
 
-/*Tablets skärmen kommer under den här media query*/
 
-@media screen and (min-width: 521px) and (max-width: 960px) {
-   section.huvudsidan {
-    width: 60%;
-    min-width: 350px;
-    max-width: 600px;
-   }
-   
-   
-  }
 
-  /*Desktops skärmen*/
+@media screen and (max-width: 768px) {
+    footer ul.nav {
+        margin: 0px auto;
+    }
+}
+
+/*Desktops skärmen*/
+
   @media screen and (min-width: 961px){
 
   }

@@ -41,7 +41,7 @@ section.huvudsidan {
     
     width: 80%;
     min-width: 250px;
-    max-width: 600px;
+    max-width: 766px;
     background-color: #272C2B;
     border: 1px solid #272C2B;
     border-radius: 10px;
@@ -55,11 +55,13 @@ section.huvudsidan {
 main p {
     font-size: 20px;
     line-height: 24px;
+    
 }
 
 main h1 {
     text-shadow: 2px 2px #080706;
     font-size: 2rem;
+
 }
 
 /*logo*/
@@ -158,8 +160,6 @@ footer ul.nav {
     justify-content: center;
 }
 
-/*footer ends*/
-
 
 footer ul li {
     background-color: #B99973;
@@ -173,15 +173,66 @@ footer.my-4 {
     margin-bottom: 0px!important;
 }
 
+/*footer ends*/
 
 
 /*filmer*/
 
 
 .filmcontainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+
+.PicsWrap {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    margin: 10px;
+    
+
+    
+}
+img.galleryPics{
+    border: 13px solid #B99973;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 250px;
+    
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #272C2B;
+    color: #B99973;
+    width:100%;
+    justify-content: space-around;
+   text-align: center;
+   text-align: justify;
+   padding: 3px;
+   
+    
+}
+
+.modal-content h2 {
+    text-align: center;
+}
+
+.modal-content img {
+    width: 40%;
+    height: 60%;
+    padding-right: 5px;
+   
+}
+.modal-dialog {
+    width: 80%;
+    max-width: 900px;
+}
+
 
   
   
@@ -241,8 +292,7 @@ footer.my-4 {
     
     .nav-pills li  {
         padding: .4rem 4rem;  
-        
-        
+     
     }
 
     header {
@@ -295,4 +345,7 @@ footer.my-4 {
 /* Desktop */
 
 
+  /*Desktops skärmen*/
+  @media screen and (min-width: 961px){
 
+  }

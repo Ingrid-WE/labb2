@@ -55,11 +55,13 @@ section.huvudsidan {
 main p {
     font-size: 20px;
     line-height: 24px;
+    
 }
 
 main h1 {
     text-shadow: 2px 2px #080706;
     font-size: 2rem;
+
 }
 
 /*logo*/

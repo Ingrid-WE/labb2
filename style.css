@@ -158,8 +158,6 @@ footer ul.nav {
     justify-content: center;
 }
 
-/*footer ends*/
-
 
 footer ul li {
     background-color: #B99973;
@@ -173,15 +171,66 @@ footer.my-4 {
     margin-bottom: 0px!important;
 }
 
+/*footer ends*/
 
 
 /*filmer*/
 
 
 .filmcontainer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+}
+
+.PicsWrap {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+    margin: 10px;
+    
+
+    
+}
+img.galleryPics{
+    border: 13px solid #B99973;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 250px;
+    
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #272C2B;
+    color: #B99973;
+    width:100%;
+    justify-content: space-around;
+   text-align: center;
+   text-align: justify;
+   padding: 3px;
+   
+    
+}
+
+.modal-content h2 {
+    text-align: center;
+}
+
+.modal-content img {
+    width: 40%;
+    height: 60%;
+    padding-right: 5px;
+   
+}
+.modal-dialog {
+    width: 80%;
+    max-width: 900px;
+}
+
 
   
   
@@ -239,8 +288,7 @@ footer.my-4 {
     
     .nav-pills li  {
         padding: .4rem 4rem;  
-        
-        
+     
     }
 
     header {

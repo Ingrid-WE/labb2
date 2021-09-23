@@ -1,9 +1,10 @@
 * {
     font-family: 'Reem Kufi';
 }
+
 body {
     width: 100%;
-    background-image: url("back2.png");
+    background-image: url("bilder/back2.png");
     background-color: gray;
     margin: 0px;
     background-size: cover;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url("header2.png");
+    background-image: url("bilder/header2.png");
     background-color:gray;
     height: 300px;
     width: 100%;
@@ -137,7 +138,7 @@ div.PicHolder {
 /*footer*/
 
 footer {
-    background-image: url("footer 2.png");
+    background-image: url("bilder/footer 2.png");
     color:#B99973;
     border: none;
     width: 100%;
@@ -192,14 +193,16 @@ footer.my-4 {
     min-width: 300px;
     text-align: center;
     margin: 10px;
+    padding: 50px;
     
 
     
 }
 img.galleryPics{
     border: 13px solid #B99973;
-    border-radius: 5px;
-    width: 50%;
+    border-radius: 5%;
+    width: 75%;
+    height: 100%;
     min-width: 250px;
     
 }
@@ -210,12 +213,11 @@ img.galleryPics{
     background-color: #272C2B;
     color: #B99973;
     width:100%;
-    justify-content: space-around;
-   text-align: center;
-   text-align: justify;
-   padding: 3px;
-   
-    
+    justify-content: space-between;
+    text-align: center;
+    text-align: justify;
+    margin-right: 5%;
+ 
 }
 
 .modal-content h2 {
@@ -223,9 +225,10 @@ img.galleryPics{
 }
 
 .modal-content img {
-    width: 40%;
-    height: 60%;
-    padding-right: 5px;
+    width: 100;
+    height: 100%;
+    padding-top: 10%;
+    padding-right:5%;
    
 }
 .modal-dialog {
@@ -233,8 +236,7 @@ img.galleryPics{
     max-width: 900px;
 }
 
-
-  
+ 
   
 /*CSS för kontaktformuläret*/
 
@@ -244,19 +246,17 @@ img.galleryPics{
     width: 400px;
     font-family: 'Reem Kufi';
     color: #B99973;
-    margin-left: 70px;
-    margin-top: 50px;    
+      
 }
 
 .form-background {
     height: 450px;
     width: 650px;
     background-color: #272C2B;
-    margin-top: 50px;
-    margin-left: 320px;
-    margin-bottom: 100px;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 5%; 
 }
 
  div button {
@@ -318,9 +318,20 @@ img.galleryPics{
         display: none;
     }
 
-}
+    .modal-content {
+        display: block;
+        text-align: justify;
+    }
+
+    .modal-content img {
+        width:100%;
+        padding-bottom:5%;
+
+    }
 
     
+
+}
 
 
 
@@ -330,24 +341,8 @@ img.galleryPics{
     }
 }
 
-/* Mobile */ KONTAKT
-@media screen and (max-width: 414px) {
-    .form-background
+/*Desktops skärmen*/
 
-}
-
-
-
-
-/* Tablet */
-
-
-
-
-/* Desktop */
-
-
-  /*Desktops skärmen*/
   @media screen and (min-width: 961px){
 
   }

@@ -261,18 +261,18 @@ footer.my-4 {
 
 }
 
+
+
 @media screen and (max-width: 768px) {
     footer ul.nav {
         margin: 0px auto;
     }
+
+    
    
    
   }
 
 
-@media  screen and (max-width: 440px) {
-    .form-background {
-        margin: 0px;
-    }
-    
-}
+
+

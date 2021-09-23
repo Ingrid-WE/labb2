@@ -243,15 +243,17 @@ img.galleryPics{
 
 .mb-3 {
     
-    width: 400px;
+    width: 60%;
+    min-width: 200px;
     font-family: 'Reem Kufi';
     color: #B99973;
       
 }
 
 .form-background {
-    height: 450px;
-    width: 650px;
+    
+    width: 50%;
+    min-width: 250px;
     background-color: #272C2B;
     margin: 0 auto;
     padding: 10px;
@@ -298,7 +300,8 @@ img.galleryPics{
     header {
         background-image: none;
         background-color:#272C2B;
-        height: 300px;
+        height: 80%;
+        min-height: 150px;
     }
 
     div#logo {
@@ -329,11 +332,22 @@ img.galleryPics{
 
     }
 
+    .mb-3 {
+        margin: 0 auto;
+    }
     
+    .form-background {
+        
+    }
+
+    .container {
+        padding-bottom: 10%;
+    }
 
 }
 
 
+/*Tablet*/
 
 @media screen and (max-width: 768px) {
     footer ul.nav {

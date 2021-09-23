@@ -213,15 +213,11 @@ img.galleryPics{
     background-color: #272C2B;
     color: #B99973;
     width:100%;
-    justify-content: space-around;
-   /*text-align: center;*/
-   text-align: justify;
-   padding: 3%;
-
-   
-   
-   
-    
+    justify-content: space-between;
+    text-align: center;
+    text-align: justify;
+    margin-right: 5%;
+ 
 }
 
 .modal-content h2 {
@@ -231,7 +227,8 @@ img.galleryPics{
 .modal-content img {
     width: 40%;
     height: 60%;
-    padding-right: 5px;
+    padding-right: 10%;
+  
    
 }
 .modal-dialog {

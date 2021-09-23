@@ -225,17 +225,10 @@ img.galleryPics{
 }
 
 .modal-content img {
-<<<<<<< HEAD
-    width: 40%;
-    height: 60%;
-    padding-right: 10%;
-  
-=======
     width: 100;
     height: 100%;
     padding-top: 10%;
     padding-right:5%;
->>>>>>> 7d5cbe827cc429dabdc150c943f21a94b7c338e7
    
 }
 .modal-dialog {

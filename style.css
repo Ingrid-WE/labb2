@@ -244,19 +244,17 @@ img.galleryPics{
     width: 400px;
     font-family: 'Reem Kufi';
     color: #B99973;
-    margin-left: 70px;
-    margin-top: 50px;    
+      
 }
 
 .form-background {
     height: 450px;
     width: 650px;
     background-color: #272C2B;
-    margin-top: 50px;
-    margin-left: 320px;
-    margin-bottom: 100px;
+    margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 5%; 
 }
 
  div button {
@@ -331,6 +329,7 @@ img.galleryPics{
 }
 
 /*Desktops skärmen*/
+
   @media screen and (min-width: 961px){
 
   }

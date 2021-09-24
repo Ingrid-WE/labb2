@@ -240,6 +240,10 @@ img.galleryPics{
   
 /*CSS för kontaktformuläret*/
 
+.container {
+    padding-bottom: 10%;
+}
+
 
 .mb-3 {
     

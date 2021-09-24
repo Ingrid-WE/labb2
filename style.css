@@ -255,8 +255,8 @@ img.galleryPics{
 
 .mb-3 {
     
-    width: 60%;
-    min-width: 200px;
+    width: 70%;
+    min-width: 350px;
     font-family: 'Reem Kufi';
     color: #B99973;
       
@@ -265,7 +265,7 @@ img.galleryPics{
 .form-background {
     
     width: 50%;
-    min-width: 250px;
+    min-width: 450px;
     background-color: #272C2B;
     margin: 0 auto;
     padding: 10px;
@@ -296,6 +296,7 @@ img.galleryPics{
     font-size: 30px; 
     margin-left: 7px;
     margin-top: 30px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
     
 }
 
@@ -372,12 +373,36 @@ img.galleryPics{
 
     .mb-3 {
         margin: 0 auto;
+        min-width: 200px;
     }
     
 
     .container {
         padding-bottom: 10%;
+        min-width: none;
     }
+
+
+
+    .mb-3 h1 {
+        font-size: x-large;
+        text-shadow: 2px 2px rgb(0, 0, 0);
+        margin-left:  0px;
+    }
+
+   .form-control {
+        margin-left: 0px;
+   }
+
+   .form-label {
+       margin-left: 0px;
+       padding-left: 0px;
+
+   }
+
+   .form-background {
+       min-width: 250px;
+   }
     
   
 
@@ -407,6 +432,33 @@ img.galleryPics{
         padding-right: 5%; 
         height: auto;
     }
+
+    .form-background {
+    
+        width: 80%;
+       
+    }
+
+    .mb-3 {
+        margin:0 auto;
+        width: 80%;
+    }
+
+    .mb-3 h1 {
+        font-size: x-large;
+        text-shadow: 2px 2px rgb(0, 0, 0);
+        margin-left:  0px;
+    }
+
+   .form-control {
+    margin-left: 0px;
+   
+   }
+
+   .form-label {
+       margin-left: 0px;
+       padding-left: 0px;
+   }
 
 }
 

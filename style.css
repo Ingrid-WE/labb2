@@ -240,6 +240,10 @@ img.galleryPics{
   
 /*CSS för kontaktformuläret*/
 
+.container {
+    padding-bottom: 10%;
+}
+
 
 .mb-3 {
     
@@ -289,7 +293,7 @@ img.galleryPics{
 
 /*responsive design*/
 
-/*i den här storleken skriver vi elementer vilka ska byta i mobils skärmen*/
+/*Mobile styles*/
 @media screen and (max-width: 520px){
 
     .nav {
@@ -348,7 +352,7 @@ img.galleryPics{
 }
 
 
-/*Tablet*/
+/*Tablet styles*/
 
 @media screen and (max-width: 768px) {
     footer ul.nav {

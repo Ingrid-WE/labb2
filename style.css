@@ -305,6 +305,16 @@ img.galleryPics{
 /*Mobile styles*/
 @media screen and (max-width: 520px){
 
+    .huvudsidan p {
+        text-align: justify;
+        padding: 2%;
+    }
+
+    .huvudsidan h1 {
+        font-size: x-large;
+        padding: 2%;
+    }
+
     .nav.nav-pills {
         margin-top: 30%;
     }
@@ -412,6 +422,18 @@ img.galleryPics{
 /*Tablet styles*/
 
 @media screen and (min-width: 521px) and (max-width: 768px)  {
+
+    .huvudsidan p {
+        
+        text-align: center;
+        padding: 2%;
+    }
+
+    .huvudsidan h1 {
+        font-size: x-large;
+        padding: 2%;
+    }
+
     footer ul.nav {
         margin: 0px auto;
     }

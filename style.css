@@ -92,7 +92,7 @@ main h1 {
 .nav a {
     color: #DCEBF0;
     font-size: 21px;
-    font-family: 'Reem Kufi';
+    /* font-family: 'Reem Kufi'; */
 }
 
 .nav-pills a {
@@ -291,6 +291,10 @@ img.galleryPics{
 
 /*i den här storleken skriver vi elementer vilka ska byta i mobils skärmen*/
 @media screen and (max-width: 520px){
+
+    .nav {
+        margin-top: 30%;
+    }
     
     .nav-pills li  {
         padding: .4rem 4rem;  
@@ -336,9 +340,6 @@ img.galleryPics{
         margin: 0 auto;
     }
     
-    .form-background {
-        
-    }
 
     .container {
         padding-bottom: 10%;
@@ -355,8 +356,6 @@ img.galleryPics{
     }
 }
 
-/*Desktops skärmen*/
 
-  @media screen and (min-width: 961px){
 
-  }
+  
